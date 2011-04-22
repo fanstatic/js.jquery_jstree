@@ -2,9 +2,9 @@ How to use?
 ===========
 
 
-You can import ``XXX`` from ``js.jquery_jstree`` and ``need`` it where you want
+You can import ``jquery_jstree`` from ``js.jquery_jstree`` and ``need`` it where you want
 these resources to be included on a page::
 
-  >>> from js.jquery_jstree import XXX # XXX fix this test
-  >>> XXX.need()
+  >>> from js.jquery_jstree import jquery_jstree
+  >>> jquery_jstree.need()
 
