@@ -9,15 +9,15 @@ library = Library('jquery_jstree', 'resources')
 
 
 # XXX: Separate eggs for these 2
-jqhotkeys = Resource(
+jquery_hotkeys = Resource(
     library, '_lib/jquery.hotkeys.js',
     depends=[jquery])
-jqcookie = Resource(
+jquery_cookie = Resource(
     library, '_lib/jquery.cookie.js',
     depends=[jquery])
 
 # XXX minified version would be nice
-jstree = Resource(
+jquery_jstree = Resource(
     library, 'jquery.jstree.js',
-    depends=[jquery, jqhotkeys, jqcookie])
+    depends=[jquery, jquery_hotkeys, jquery_cookie])
 
